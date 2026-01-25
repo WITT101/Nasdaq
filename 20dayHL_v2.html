@@ -7517,7 +7517,7 @@ a.anchor-link {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Last updated: 2026-01-25 20:51:39
+<pre>Last updated: 2026-01-25 21:13:48
 </pre>
 </div>
 </div>
@@ -7535,56 +7535,13 @@ a.anchor-link {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>============================================================
-NASDAQ FUTURES ANALYSIS - Rolling High/Low Signal Testing
-============================================================
-
-📥 STEP 1: Downloading/Updating NASDAQ Data...
-Last data point: 2026-01-23
-Downloading from: 2026-01-24
-YF.download() has changed argument auto_adjust default to True
+<pre>YF.download() has changed argument auto_adjust default to True
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>✓ Successfully saved 1 new records
-Total records in file: 6402
-Date range: 2000-09-18 00:00:00 to 2026-01-23 00:00:00
-
-📂 STEP 2: Loading and Preparing Data...
-   - Raw columns found: ['Date', 'Close', 'High', 'Low', 'Open', 'Volume']
-
-📊 Data loaded successfully:
-   - Records: 6,401
-   - Date range: 2000-09-18 00:00:00 to 2026-01-23 00:00:00
-   - Cycle years: ['Year4', 'Year1', 'Year2', 'Year3']
-   - Column dtypes: {'open': dtype('float64'), 'high': dtype('float64'), 'low': dtype('float64'), 'close': dtype('float64')}
-
-📋 PREPARING DATAFRAME:
-==================================================
-✅ Created 'month' column
-✅ Created 'quarter' column
-
-📊 Data summary:
-   - Date range: 2000-09-18 00:00:00 to 2026-01-23 00:00:00
-   - Months available: [np.int32(1), np.int32(2), np.int32(3), np.int32(4), np.int32(5), np.int32(6), np.int32(7), np.int32(8), np.int32(9), np.int32(10), np.int32(11), np.int32(12)]
-   - Quarters available: [np.int32(1), np.int32(2), np.int32(3), np.int32(4)]
-   - Years available: [np.int32(2000), np.int32(2001), np.int32(2002), np.int32(2003), np.int32(2004), np.int32(2005), np.int32(2006), np.int32(2007), np.int32(2008), np.int32(2009), np.int32(2010), np.int32(2011), np.int32(2012), np.int32(2013), np.int32(2014), np.int32(2015), np.int32(2016), np.int32(2017), np.int32(2018), np.int32(2019), np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024), np.int32(2025), np.int32(2026)]
-   - Cycle years available: ['Year1', 'Year2', 'Year3', 'Year4']
-
-📈 Calculating moving averages...
-✅ Created MA columns (20, 50, 200) and above/below indicators
-
-📊 Calculating range position...
-✅ Created range_position and range_zone columns (Zone 1-10)
-
-📊 Calculating 20D range width zones (volatility proxy)...
-✅ Created range_width_pct and range_width_zone (Zone 1-20)
-
-🏔️ Calculating ATH drawdown zones...
-✅ Created ath_close, drawdown_pct, ath_dd_zone columns (Zone 1-20)
-==================================================
+<pre>   
 
 🕒 LIVE MODE: Using latest data (2026-01-23)
 
@@ -7636,18 +7593,6 @@ Date range: 2000-09-18 00:00:00 to 2026-01-23 00:00:00
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
-📊 CURRENT STATUS (20-DAY WINDOW):
-Metric              Value      
--------------------------------
-Days since high     7          
-Days since low      2          
-20-day high         $26045.50  
-20-day low          $25025.00  
-Current close       $25738.25  
-Current cycle year  Year2      
-Current month       January    
-Current quarter     Q1         
-
 
 🔴 Days Since 20D HIGH = 7 days (12 occurrences)
 ===============================================
